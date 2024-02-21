@@ -11,6 +11,7 @@ namespace LabWebApp.Data
 
         // DbSet property for the Product entity
         public DbSet<Product> Products { get; set; }
+        public DbSet<LabWebApp.Models.Category> Category { get; set; } = default!;
     }
 }
 
