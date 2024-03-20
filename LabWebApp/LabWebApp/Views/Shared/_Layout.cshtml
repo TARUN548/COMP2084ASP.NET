@@ -26,9 +26,15 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Index">Categories</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index">Category</a>
                         </li>
                     </ul>
+
+                    <div class="d-flex">
+                        <!-- Include login partial -->
+                        @Html.Partial("_LoginPartial")
+                    </div>
+
                 </div>
             </div>
         </nav>
